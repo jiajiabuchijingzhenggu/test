@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.c{
+    clear: both;
+}
+.outer_center{
+    width: 1366px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+header{
+    height: 60px;
+}
+header .header_outer{
+    width: 1180px;
+    margin: 0 auto;
+    height: 60px;
+    display: flex;
+}
+/*设置头部左侧logo*/
+header .header_outer .header_left{
+    width: 295px;
+    height: 60px;
+    flex: 1;
+}
+header .header_outer .header_left .header_logo{
+    height: 60px;
+    line-height: 60px;
+    float: left;
+}
+header .header_outer .header_left .header_logo img{
+    width: 124px;
+    height: 32px;
+    margin-top: 13px;
+}
+header .header_outer .header_left .header_position{
+    float: left;
+    width: 70px;
+    height: 60px;
+    line-height: 60px;
+    margin-left: 20px;
+    color: #777;
+    font-size: 14px;
+}
+/*设置头部中间选项卡*/
+header .header_outer .header_mid{
+    width: 580px;
+    height: 60px;
+    flex: 2;
+    font-size: 16px;
+}
+header .header_outer .header_mid ul li{
+    list-style: none;
+    width: 65px;
+    height: 60px;
+    line-height: 60px;
+    float: left;
+}
+header .header_outer .header_mid ul li span{
+    height: 45px;
+    display: inline-block;
+}
+header .header_outer .header_mid ul li span:hover{
+    cursor: pointer;
+    font-weight: bold;
+    border-bottom:  3px solid orange;
+}
+/*设置头部右侧登录注册*/
+header .header_outer .header_right{
+    width: 295px;
+    height: 60px;
+    line-height: 60px;
+    flex: 1;
+}
+header .header_outer .header_right span{
+    float: right;
+    margin-left: 20px;
+    font-size: 14px;
+}
+header .header_outer .header_right span:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+/*设置脚部*/
+footer{
+    width: 100%;
+    height: 437px;
+    background: #1c1c1c;
+}
+footer .footer_outer{
+    width: 1180px;
+    height: 430px;
+    margin: 0 auto;
+}
+footer .footer_outer .footer_top{
+    height: 71px;
+    border-bottom:  1px solid rgba(255, 255, 255,0.2);
+    line-height: 71px;
+    display: flex;
+}
+/*脚步logo中方左侧logo*/
+footer .footer_outer .footer_top .footer_left{
+    color: orange;
+    font-weight: bold;
+}
+footer .footer_outer .footer_top .footer_left span:first-child{
+    font-size: 30px;
+}
+footer .footer_outer .footer_top .footer_left span:nth-child(2){
+    font-size:26px;
+    position: relative;
+    top: 4px;
+}
+footer .footer_outer .footer_top .footer_left span:last-child{
+    position: relative;
+    left: -60px;
+    top: -15px;
+    font-size: 14px;
+}
+/*脚步top中右侧选项卡*/
+.footer_right{
+    flex: 4;
+}
+.footer_right ul{
+    float: right;
+}
+.footer_right li{
+    list-style: none;
+    color: white;
+    float: left;
+    width: 100px;
+    height: 60px;
+    line-height: 60px;
+    text-align: right;
+}
+.footer_mid{
+    display: flex;
+    height: 140px;
+    padding: 30px 0;
+    border-bottom:  1px solid rgba(255, 255, 255,0.2);
+}
+.footer_center_left{
+    flex: 3;
+}
+.footer_center_left li{
+    color: #999;
+    list-style: none;
+    font-size: 14px;
+    margin-bottom: 15px;
+    height: 20px;
+
+}
+.footer_center_left li:nth-child(2){
+    font-size: 24px;
+    color: white;
+    margin-top: -15px;
+    height: 30px;
+}
+.footer_center_left li:nth-child(4){
+    font-size: 12px;
+}
+.footer_center_left li:last-child{
+    margin-bottom: 0px;
+    font-size: 12px;
+}
+
+
+.footer_center_right{
+    flex: 2;
+}
+.footer_code{
+    width: 90px;
+    float: right;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+.footer_code img{
+    width: 90px;
+    height: 90px;
+}
+.footer_text{
+    width: 90px;
+    color:  #999;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 15px;
+    margin-top: 7px;
+    border: 1px solid #283026;
+}
+.footer_bottom{
+    color: #999;
+    font-size: 14px;
+    padding: 20px 0;
+
+    height: 140px;
+}
+.footer_bottom>div{
+    height: 30px;
+}
+.footer_bottom>div:nth-child(2){
+    font-size:12px ;
+    margin-bottom: 10px;
+}
+.footer_bottom>div:nth-child(3){
+    font-size:12px ;
+    color: #797979;
+}
+.footer_bottom>div:last-child{
+    font-size: 12px;
+    float: left;
+    height: 30px;
+}
+.footer_bottom>div:last-child>div{
+    display: inline-block;
+}
+.footer_bottom>div img{
+    width: 20px;
+    height: 20px;
+    line-height: 30px;
+}
+.footer_bottom_text{
+    height: 30px;
+    padding-left: 3px;
+    position: relative;
+    top: -4px;
+}
+
+/*脚步上方共有模块，灰色选项卡部分*/
+.section{
+    background: #f7f7f7;
+    padding: 40px 0;
+}
+section .section_outer{
+    width: 1180px;
+    margin: 0 auto;
+}
+section .section_outer .section_top{
+    height: 43px;
+    padding-left: 10px;
+    border-bottom: 1px solid #eaeaea;
+    line-height: 43px;
+}
+section .section_outer .section_top  div{
+    float: left;
+    margin-right: 56px;
+    font-size: 14px;
+    font-weight: bold;
+    height: 95%;
+}
+section .section_outer .section_top  div:hover{
+    cursor: pointer;
+    color: #fcb100;
+    border-bottom: 3px solid #fcb100;
+
+}
+/*选项卡中详情内容*/
+section .section_outer .section_bottom span{
+    margin-right: 15px;
+    font-size: 12px;
+    line-height: 42px;
+}
+section .section_outer .section_bottom span:hover{
+    color: #007ef3;
+}
+
+/*正文内容*/
+.article .article_firstRow{
+    height: 393px;
+    background: url('../images/head-img.png');
+}
+.article .article_firstRow .article_firstRow_outer{
+    width: 1180px;
+    margin: 0 auto;
+    height: 100%;
+    overflow: hidden;
+}
+.article .article_firstRow .article_firstRow_outer .article_form{
+    height: 315px;
+    margin-top: 26px;
+    display: flex;
+    
+}
+.article .article_firstRow .article_firstRow_outer .article_form>div{
+    float: left;
+    height: 100%;
+    width: 680px;
+}
+.article_form .article_form_left{
+    display: flex;
+    margin-right: 20px;
+}
+.article_form .article_form_left ul{
+    width: 96px;
+    list-style: none;
+    background-color: #f5f5f5;
+    height: 100%;
+}
+.article_form .article_form_left ul li{
+    height: 62px;
+    line-height: 62px;
+    text-align: center;
+    font-size: 16px;
+    border-bottom:1px solid #eaeaea;
+}
+.article_form .article_form_left ul li:hover{
+    background-color: white;
+    font-weight: bold;
+}
+.article_form .article_form_left .article_form_left_details{
+    width: 584px;
+    height: 283px;
+    background-color: white;
+    padding:32px 0px 0px 26px ;
+}
+.article_form .article_form_left .article_form_left_details div:first-child{
+    height: 70px;
+    margin-bottom: 0px;
+}
+.article_form_left_details div:first-child input{
+    width: 407px;
+    height: 19px;
+    padding: 10px;
+    font-size: 14px;
+}
+.article_form_left_details div:first-child .button{
+    width: 89px;
+    height: 44px;
+    background: orange;
+    display: inline-block;
+    position: relative;
+    left: -23px;
+    top: 2px;
+    color: white;
+    text-align: center;
+}
+.article_form_left_details div:first-child .button i{
+    padding-top: 3px;
+    font-size: 30px;
+}
+ /*article第一行中左侧form中右侧详情区域里面所有div中的文字使用span进行间距设置*/
+.article_form .article_form_left .article_form_left_details div span{
+    font-size: 14px;
+    margin-right:18px;
+}
+.article_form .article_form_left .article_form_left_details div:nth-child(2){
+    /*article第一行中左侧form中右侧详情区域里面第二行div*/
+    margin-bottom:50px;
+}
+ /*article第一行中左侧form中右侧详情区域里面所有div（所有行）*/
+.article_form .article_form_left .article_form_left_details div{
+    margin-bottom: 20px;
+}
+.article_form .article_form_left .article_form_left_details div:last-child p{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    color: #608997;
+    font-size: 12px;
+    background-color: #ebf5f7;
+    border-radius: 5px;
+    margin-right: 18px;
+    padding:0 15px
+}
+.article .article_firstRow .article_firstRow_outer .article_form>div:last-child{
+    width: 480px;
+    margin-inline-start: 20px;
+    background-color: white;
+    padding: 10px 0 10px 12px;
+    height: 295px;
+} 
+ .article_firstRow_outer .article_promise{
+    font-size: 12px;
+    color: white;
+    margin-top: 14px;
+}
+.article .article_firstRow .article_firstRow_outer .article_promise span:first-child{
+    margin-right: 6px;
+    font-size: 16px;
+}
